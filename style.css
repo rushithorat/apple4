@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(233, 228, 228);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.sliding{
+    margin-left: 3vw;
+}
+  .common {
+    /* text-align: center; */
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+  }
+.upper-heading1 h1{
+   color: gray;
+   padding-top: 2vw;
+   padding-bottom: 2vw;
+}
+.upper-heading1 strong{
+    color:black;
+}
+  .lower-slides{
+    height: 70vh;
+    width: 100%;
+    /* background-color: teal; */
+  }
+  .sp1{
+    background-image: url(store-card-50-tv-services-202404.jpeg);
+    height: 40vh;
+    width: 40vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .sp1 h3{
+    font-size: 2vw;
+    color: white;
+  }
+  .sp2{
+    background-image: url(store-card-50-subscriptions-202108.jpeg);
+    height: 40vh;
+    width: 15vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .sp2 h3{
+    color: black;
+    font-size: 2vw;
+    padding-top: 2vw;
+  }
+  .sp3{
+    background-image: url(store-card-50-homekit-202405_GEO_IN.jpeg);
+    height: 40vh;
+    width: 15vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .sp3 h3{
+    font-size: 2vw;
+    color: black;
+  }
+  .sp4{
+    background-image: url(store-card-50-applecare-202405.jpeg);
+    height: 40vh;
+    width: 20vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+ .sp4 p{
+    padding-top: 2vw;
+ }
+ .sp4 h3{
+    font-size: 2vw;
+ }
+
+
+  .down-swiper-slide{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+  }
+  .down-swiper-slide i{
+    margin-top: 2vh;
+    font-size: 4vh;
+  }
+
+  .swipe-wrap h6{
+    color: gray;
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-left: 3vh;
+  }
+  .swipe-wrap h3{
+    margin-left: 3vh;
+    margin-top: 4vh;
+    font-weight: 500;
+  }
+  .swipe-wrap p{
+    margin-left: 3vh;
+    font-size: 2.5vh;
+    font-weight: 100;
+    margin-top: 2vh;
+  }
+  .ss5 h6{
+    margin-top: 0%;
+    padding-top: 3vh;
+  }
+  
+  @media(min-width:1px) and (max-width:425px) {
+    .sliding{
+      margin-left: 0;
+    }
+    .upper-heading{
+      height: 10vh;
+      /* background-color: aqua; */
+      margin-left: 2vh;
+    }
+    .upper-heading h3{
+      font-size: 2vh;
+    }
+    .lower-slides{
+      margin-left: 2vh;
+    }
+    .sp1 h3{
+        font-size: 2vh;
+    }
+    .sp2 h3{
+        font-size: 4vh;
+        padding-top: 2vh;
+    }
+    .sp3 h3{
+        font-size: 2.5vh;
+    }
+    .sp4 h3{
+        font-size: 3vh;
+    }
+    .upper-heading1 h1{
+        font-size: 3vh;
+        margin-top: 1vh;
+        margin-left: 1vw;
+    }
+  }
